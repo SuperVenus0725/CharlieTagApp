@@ -1,0 +1,264 @@
+.ant-table {
+  .ant-table-container {
+    .ant-table-header {
+      table {
+        thead {
+          margin-right: 15px;
+          tr {
+            th {
+              background-color: #ededed;
+              font-size: 14px;
+              border-right: 1px solid #e2e2e5;
+              border-bottom: 1px solid #e2e2e5;
+              border-top: 1px solid #e2e2e5;
+              box-sizing: border-box;
+              font-style: normal;
+              line-height: 17px;
+              font-weight: bold;
+              color: #5f6a73;
+              padding: 0px;
+              padding-left: 10px;
+              height: 36px;
+              .settings {
+                margin-right: 22px;
+              }
+              .tags {
+                display: flex;
+                justify-content: space-between;
+                .tags-literal {
+                  display: flex;
+                  align-items: center;
+                  font-weight: bold;
+                }
+              }
+              .order-title {
+                margin-left: -10px;
+                text-align: center;
+              }
+              .checkbox-title {
+                margin-left: -10px;
+                text-align: center;
+              }
+              .connected {
+                display: flex;
+                align-items: center;
+                span {
+                  display: flex;
+                  align-items: center;
+                }
+              }
+              .model {
+                display: flex;
+                flex-direction: row;
+                .text {
+                  padding: 0px;
+                  display: flex;
+                  align-items: center;
+                  margin-right: 10px;
+                  font-weight: bold;
+                }
+                .sort {
+                  padding: 0px;
+                  background-color: #ededed;
+                  display: flex;
+                  align-items: center;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.table-content {
+  height: calc(100% - 60px);
+  .table-pagination {
+    padding: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .ant-table-wrapper {
+    height: 100%;
+    .ant-spin-nested-loading {
+      height: 100%;
+      .ant-spin-container {
+        height: 100%;
+        .ant-table {
+          height: calc(100% - 56px);
+          // height: 100%;
+          .ant-table-container {
+            height: 100%;
+            .ant-table-body {
+              height: calc(100% - 36px);
+              table {
+                tbody {
+                  td,
+                  th {
+                    border-collapse: collapse;
+                  }
+                  tr {
+                    td {
+                      min-height: 36px;
+                      border-right: 1px solid #e2e2e5;
+                      border-bottom: 1px solid #e2e2e5;
+                      box-sizing: border-box;
+                      padding: 0px;
+                      padding-left: 10px;
+                      padding-right: 10px;
+                      color: #5f6a73;
+                      .order {
+                        flex-wrap: wrap;
+                        text-align: center;
+                      }
+                      .checkbox {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      }
+                      .tags-add-list {
+                        .ellipse {
+                          margin-right: 22px;
+                        }
+                      }
+                      .tags {
+                        padding-bottom: 5px;
+                        .table-tags {
+                          padding: 0px;
+                          margin-top: 5px;
+                          span {
+                            margin: 0px;
+                            margin-right: 10px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.ant-table-column-title {
+  font-weight: bold;
+}
+
+small {
+  .ant-table-content {
+    .ant-table-body {
+      margin: 0px;
+    }
+  }
+}
+
+.set-column {
+  background-color: grey;
+  border-color: grey;
+}
+
+.ant-popover-content {
+  .ant-popover-inner {
+    padding: 0px;
+    .ant-popover-inner-content {
+      padding: 0px;
+      .add-tags {
+        width: 388px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        .add-tag {
+          padding: 5px;
+          .tag-select {
+            cursor: pointer;
+          }
+        }
+      }
+      .checkbox-group {
+        width: 232px;
+        padding-left: 20px;
+        padding-top: 16px;
+        padding-bottom: 19px;
+      }
+    }
+  }
+}
+
+.ant-checkbox-wrapper {
+  .ant-checkbox-checked {
+    .ant-checkbox-inner {
+      background-color: #00a786;
+      border-radius: 3px;
+      border-color: #00a786;
+    }
+  }
+  &:hover {
+    border-color: #00a786;
+    .ant-checkbox-checked {
+      s &::after {
+        border-color: #00a786;
+      }
+    }
+    .ant-checkbox-inner {
+      border-color: #00a786;
+    }
+  }
+}
+
+.tags-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    .ant-tag {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      margin: 5px;
+    }
+  }
+}
+
+.data-row {
+  background-color: #fafafa;
+}
+
+.tree {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+  button {
+    button ::before {
+      content: "asda";
+      min-width: 50px;
+      height: 20px;
+      color: red;
+    }
+  }
+}
+
+.ant-table-thead {
+  tr {
+    th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+      background-color: #ededed;
+    }
+  }
+}
+
+.ant-pagination-options-size-changer {
+  margin-right: 22px;
+}

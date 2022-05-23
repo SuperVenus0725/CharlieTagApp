@@ -1,0 +1,501 @@
+{
+  "data": [
+    {
+      "key": 1,
+      "index": 1,
+      "model": "Columbo DT",
+      "id": 1627282921,
+      "serialNumber": "MT318318-BR(E)",
+      "scanningsCount": 12139,
+      "tags": ["critical", "old_firmware", "patched_dev", "service"],
+      "popover": true
+    },
+    {
+      "key": 2,
+      "index": 2,
+      "model": "Columbo DT",
+      "id": 4076282921,
+      "serialNumber": "MN-156-678",
+      "scanningsCount": 628,
+      "tags": ["critical", "old_firmware", "patched_dev"],
+      "popover": false
+    },
+    {
+      "key": 3,
+      "index": 3,
+      "model": "Columbo DT",
+      "id": 676282921,
+      "serialNumber": "RT-759OS",
+      "scanningsCount": 363,
+      "tags": ["critical"],
+      "popover": false
+    },
+    {
+      "key": 4,
+      "index": 4,
+      "model": "Columbo OEM",
+      "id": 5180282921,
+      "serialNumber": "AJA-156678",
+      "scanningsCount": 1353,
+      "tags": [
+        "critical",
+        "old_firmware",
+        "patched_dev",
+        "service",
+        "new_os | KZKZ",
+        "standart I IBMA RURU",
+        "updated_devices | CMDR BEBE"
+      ],
+      "popover": true
+    },
+    {
+      "key": 5,
+      "index": 5,
+      "model": "Columbo OEM",
+      "id": 6856282921,
+      "serialNumber": "CR-15678-BR",
+      "scanningsCount": 2906,
+      "tags": ["critical"],
+      "popover": false
+    },
+    {
+      "key": 6,
+      "index": 6,
+      "model": "Columbo OEM",
+      "id": 9030282921,
+      "serialNumber": "RT156678",
+      "scanningsCount": 75,
+      "tags": [
+        "critical",
+        "old_firmware",
+        "patched_dev",
+        "service",
+        "new_os | KZKZ"
+      ],
+      "popover": false
+    },
+    {
+      "key": 7,
+      "index": 7,
+      "model": "Five-0",
+      "id": 4488282921,
+      "serialNumber": "ZM-156678",
+      "scanningsCount": 12,
+      "tags": ["critical"],
+      "popover": false
+    },
+    {
+      "key": 8,
+      "index": 8,
+      "model": "Five-0",
+      "id": 7920282921,
+      "serialNumber": "MAS-156678",
+      "scanningsCount": 13144,
+      "tags": [
+        "critical",
+        "old_firmware",
+        "patched_dev",
+        "service",
+        "new_os | KZKZ",
+        "standart I IBMA RURU",
+        "updated_devices | CMDR BEBE"
+      ],
+      "popover": true
+    },
+    {
+      "key": 9,
+      "index": 9,
+      "model": "Danno",
+      "id": 3850282921,
+      "serialNumber": "PV-15667RU",
+      "scanningsCount": 1005,
+      "tags": [
+        "critical",
+        "old_firmware",
+        "patched_dev",
+        "service",
+        "new_os | KZKZ",
+        "standart I IBMA RURU",
+        "updated_devices | CMDR BEBE"
+      ],
+      "popover": true
+    },
+    {
+      "key": 10,
+      "index": 10,
+      "model": "Danno",
+      "id": 8850282921,
+      "serialNumber": "AST-1566-7RU",
+      "scanningsCount": 678,
+      "tags": ["critical", "old_firmware", "patched_dev"],
+      "popover": false
+    },
+    {
+      "key": 11,
+      "index": 11,
+      "model": "Kojak",
+      "id": 2500282921,
+      "serialNumber": "MT318-BR(E)",
+      "scanningsCount": 522,
+      "tags": ["critical"],
+      "popover": false
+    },
+    {
+      "key": 12,
+      "index": 12,
+      "model": "Kojak",
+      "id": 9940282921,
+      "serialNumber": "RT-15667RU",
+      "scanningsCount": 132,
+      "tags": [
+        "critical",
+        "old_firmware",
+        "patched_dev",
+        "service",
+        "new_os | KZKZ",
+        "standart I IBMA RURU"
+      ],
+      "popover": false
+    },
+    {
+      "key": 13,
+      "index": 13,
+      "model": "Kojak PL",
+      "id": 4760282921,
+      "serialNumber": "PV-15667RU",
+      "scanningsCount": 5896,
+      "tags": ["critical", "old_firmware", "patched_dev", "service"],
+      "popover": false
+    },
+    {
+      "key": 14,
+      "index": 14,
+      "model": "Kojak PL",
+      "id": 7130282921,
+      "serialNumber": "WR-15667RU",
+      "scanningsCount": 11225,
+      "tags": ["critical"],
+      "popover": false
+    },
+    {
+      "key": 15,
+      "index": 15,
+      "model": "Kojak PL",
+      "id": 6350282921,
+      "serialNumber": "CR-15667RU",
+      "scanningsCount": 126,
+      "tags": ["critical", "old_firmware"],
+      "popover": false
+    },
+    {
+      "key": 16,
+      "index": 16,
+      "model": "Sherlock",
+      "id": 403022921,
+      "serialNumber": "KZ-15667RU",
+      "scanningsCount": 117,
+      "tags": ["critical", "old_firmware", "patched_dev", "service"],
+      "popover": true
+    },
+    {
+      "key": 17,
+      "index": 17,
+      "model": "Sherlock",
+      "id": 7900282921,
+      "serialNumber": "ALA-15667RU",
+      "scanningsCount": 4589,
+      "tags": ["critical", "old_firmware", "patched_dev"],
+      "popover": false
+    },
+    {
+      "key": 18,
+      "index": 18,
+      "model": "Sherlock",
+      "id": 2870282921,
+      "serialNumber": "ZM-15667RU",
+      "scanningsCount": 2001,
+      "tags": ["critical"],
+      "popover": false
+    },
+    {
+      "key": 19,
+      "index": 19,
+      "model": "Watson Mini",
+      "id": 5580282921,
+      "serialNumber": "RT-15667QQ",
+      "scanningsCount": 1145,
+      "tags": ["critical", "old_firmware", "patched_dev", "service"],
+      "popover": true
+    },
+    {
+      "key": 20,
+      "index": 20,
+      "model": "Watson Mini",
+      "id": 1520282921,
+      "serialNumber": "MAS-15667QQ",
+      "scanningsCount": 6557,
+      "tags": ["critical"],
+      "popover": false
+    }
+  ],
+  "addTag": [
+    "critical",
+    "old_firmware",
+    "service",
+    "not_working",
+    "terminal",
+    "last_update_so_far",
+    "online",
+    "destroyed"
+  ],
+  "agents": [
+    {
+      "key": 1,
+      "index": 1,
+      "model": "Amarant1798",
+      "id": 152265664,
+      "sdk": "B.01.95",
+      "os": "Harmony",
+      "connected": "12.07.2021 11:45:56",
+      "tags": ["critical", "old_firmware", "patched_dev"],
+      "popover": false
+    },
+    {
+      "key": 2,
+      "index": 2,
+      "model": "Ben-TQ",
+      "id": 407665664,
+      "sdk": "A.01.90",
+      "os": "Tizen",
+      "connected": "17.08.2021 12:04:17",
+      "tags": ["critical", "old_firmware", "patched_dev"],
+      "popover": false
+    },
+    {
+      "key": 3,
+      "index": 3,
+      "model": "CMNDT",
+      "id": 287765664,
+      "sdk": "A.01.36",
+      "os": "myOS",
+      "connected": "25.08.2021 00:37:04",
+      "tags": ["critical"],
+      "popover": false
+    },
+    {
+      "key": 4,
+      "index": 4,
+      "model": "DUST-XS",
+      "id": 5559865664,
+      "sdk": "A.01.90",
+      "os": "Android",
+      "connected": "14.08.2021 00:37:04",
+      "tags": [
+        "critical",
+        "old_firmware",
+        "patched_dev",
+        "standart I IBMA RURU",
+        "updated_devices | CMDR BEBE"
+      ],
+      "popover": true
+    },
+    {
+      "key": 5,
+      "index": 5,
+      "model": "ERSON-TQ",
+      "id": 790699596,
+      "sdk": "A.01.90",
+      "os": "miUI",
+      "connected": "25.06.2021 18:14:45",
+      "tags": ["critical"],
+      "popover": false
+    },
+    {
+      "key": 6,
+      "index": 6,
+      "model": "GS_Leco",
+      "id": 403540585,
+      "sdk": "A.01.36",
+      "os": "OneUI",
+      "connected": "17.07.2019 00:37:04",
+      "tags": ["critical", "old_firmware", "patched_dev"],
+      "popover": false
+    },
+    {
+      "key": 7,
+      "index": 7,
+      "model": "Hugeon",
+      "id": 635565664,
+      "sdk": "A.05.03",
+      "os": "Symbian",
+      "connected": "14.01.2021 02:35:50",
+      "tags": ["critical"],
+      "popover": false
+    },
+    {
+      "key": 8,
+      "index": 8,
+      "model": "Jux-M19",
+      "id": 7131865664,
+      "sdk": "A.05.03",
+      "os": "Series40",
+      "connected": "15.08.2021 09:27:30",
+      "tags": [
+        "critical",
+        "old_firmware",
+        "patched_dev",
+        "standart I IBMA RURU",
+        "updated_devices | CMDR BEBE"
+      ],
+      "popover": true
+    },
+    {
+      "key": 9,
+      "index": 9,
+      "model": "Karma-Z",
+      "id": 4765865664,
+      "sdk": "2.6.153.0",
+      "os": "Windows",
+      "connected": "17.09.2021 03:50:17",
+      "tags": [
+        "critical",
+        "old_firmware",
+        "patched_dev",
+        "standart I IBMA RURU",
+        "updated_devices | CMDR BEBE"
+      ],
+      "popover": true
+    },
+    {
+      "key": 10,
+      "index": 10,
+      "model": "LL-Mod",
+      "id": 9940865664,
+      "sdk": "B.03.86",
+      "os": "Ubuntu",
+      "connected": "16.05.2021 00:37:04",
+      "tags": ["critical", "old_firmware", "patched_dev"],
+      "popover": false
+    },
+    {
+      "key": 11,
+      "index": 11,
+      "model": "Next-OE",
+      "id": 2507765664,
+      "sdk": "C.05.85",
+      "os": "Fedora",
+      "connected": "03.04.2021 17:16:04",
+      "tags": ["critical", "old_firmware", "patched_dev"],
+      "popover": false
+    },
+    {
+      "key": 12,
+      "index": 12,
+      "model": "Opus-92",
+      "id": 888565664,
+      "sdk": "C.06.28",
+      "os": "Android",
+      "connected": "22.04.2020 11:27:04",
+      "tags": [
+        "critical",
+        "old_firmware",
+        "patched_dev",
+        "standart I IBMA RURU"
+      ],
+      "popover": false
+    },
+    {
+      "key": 13,
+      "index": 13,
+      "model": "Pegion",
+      "id": 15529865664,
+      "sdk": "C.01.24",
+      "os": "Tizen",
+      "connected": "12.03.2021 20:27:04",
+      "tags": ["critical", "old_firmware", "patched_dev"],
+      "popover": false
+    },
+    {
+      "key": 14,
+      "index": 14,
+      "model": "Pigeon10",
+      "id": 3854865664,
+      "sdk": "2.2.2.2",
+      "os": "ChromeOS",
+      "connected": "22.01.2021 09:15:41",
+      "tags": ["critical"],
+      "popover": false
+    },
+    {
+      "key": 15,
+      "index": 15,
+      "model": "Q-Eli",
+      "id": 7925865664,
+      "sdk": "A.01.00",
+      "os": "Harmony",
+      "connected": "25.06.2021 22:32:42",
+      "tags": ["critical", "old_firmware"],
+      "popover": false
+    },
+    {
+      "key": 16,
+      "index": 16,
+      "model": "Rampage-ST",
+      "id": 4488865664,
+      "sdk": "A.02.24",
+      "os": "OneUI",
+      "connected": "03.04.2021 11:27:29",
+      "tags": ["critical", "old_firmware", "patched_dev"],
+      "popover": false
+    },
+    {
+      "key": 17,
+      "index": 17,
+      "model": "T-REX",
+      "id": 9036865664,
+      "sdk": "5.0.4.0",
+      "os": "Android",
+      "connected": "17.09.2021 00:37:04",
+      "tags": [
+        "critical",
+        "old_firmware",
+        "patched_dev",
+        "standart I IBMA RURU"
+      ],
+      "popover": false
+    },
+    {
+      "key": 18,
+      "index": 18,
+      "model": "UV-43HU",
+      "id": 6865865664,
+      "sdk": "A.01.87",
+      "os": "Android",
+      "connected": "17.07.2019 05:40:04",
+      "tags": ["critical"],
+      "popover": false
+    },
+    {
+      "key": 19,
+      "index": 19,
+      "model": "Venom-2",
+      "id": 519707075,
+      "sdk": "B.01.90",
+      "os": "Free BSD",
+      "connected": "15.08.2021 08:20:04",
+      "tags": ["critical", "old_firmware", "patched_dev"],
+      "popover": false
+    },
+    {
+      "key": 20,
+      "index": 20,
+      "model": "Zeon-XS",
+      "id": 1522865664,
+      "sdk": "A.01.00",
+      "os": "Debian",
+      "connected": "14.08.2021 10:37:04",
+      "tags": ["critical"],
+      "popover": false
+    }
+  ]
+}

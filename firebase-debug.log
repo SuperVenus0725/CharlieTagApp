@@ -1,0 +1,28 @@
+[debug] [2022-01-19T07:59:39.641Z] ----------------------------------------------------------------------
+[debug] [2022-01-19T07:59:39.647Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\star\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-01-19T07:59:39.648Z] CLI Version:   9.23.1
+[debug] [2022-01-19T07:59:39.648Z] Platform:      win32
+[debug] [2022-01-19T07:59:39.649Z] Node Version:  v14.17.5
+[debug] [2022-01-19T07:59:39.650Z] Time:          Wed Jan 19 2022 15:59:39 GMT+0800 (China Standard Time)
+[debug] [2022-01-19T07:59:39.651Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-19T07:59:39.700Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-01-19T07:59:39.965Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-19T07:59:39.966Z] > authorizing via signed-in user (venus19980725@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\work\Charlie-TagsApp\CHARLIE-TagsApp
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2022-01-19T07:59:41.454Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-01-19T07:59:41.455Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}

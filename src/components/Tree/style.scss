@@ -1,0 +1,19 @@
+.container-component-tree {
+  // padding: 20px;
+  .tree-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 8px;
+    .tree-item-gap {
+      position: relative;
+      .tree-item-gap-line {
+        position: absolute;
+        right: 0;
+        border: 1px solid #E2E2E5;
+        border-top: none;
+        border-right: none;
+      }
+    }
+  }
+}

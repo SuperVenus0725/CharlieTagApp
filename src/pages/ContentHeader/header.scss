@@ -1,0 +1,89 @@
+@import "./Modal/style.scss";
+
+.table-header {
+  border: 1px solid #e2e2e5;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  font-family: Proxima Nova;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+
+  .first-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .filters {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 90px;
+      height: 34px;
+      margin-right: 10px;
+      border: 1px solid #e2e2e5;
+      box-sizing: border-box;
+      border-radius: 3px;
+      span {
+        display: flex;
+        align-items: center;
+        color: #5f6a73;
+      }
+    }
+    .reload {
+      height: 34px;
+      width: 34px;
+      border: 1px solid #e2e2e5;
+      box-sizing: border-box;
+      border-radius: 3px;
+    }
+  }
+  .result {
+    display: flex;
+    align-items: center;
+    height: 34px;
+    .ant-statistic-content {
+      display: flex;
+      align-items: center;
+      span {
+        color: #5f6a73;
+      }
+    }
+  }
+  .second-group {
+    Button {
+      margin-left: 10px;
+    }
+    .add {
+      border: 1px solid;
+      border-image-source: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 61.98%,
+        rgba(0, 0, 0, 0.2) 100%
+      );
+      background: #3db5e6;
+      border-radius: 3px;
+      color: white;
+      height: 34px;
+    }
+    .remove {
+      border: 1px solid;
+      border-image-source: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 61.98%,
+        rgba(0, 0, 0, 0.2) 100%
+      );
+      background: #f84a51;
+      border-radius: 3px;
+      color: white;
+      height: 34px;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@import "~antd/dist/antd.css";
+@import "./pages/style.scss";
+@import "./components/style.scss";
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/l/font?kit=FwZc7-Am2FI_-VOxaLDvvq27pmO7&skey=96867d716c89840e&v=v14)
+    format("woff2");
+}
+.App {
+  height: 100%;
+  width: 100%;
+  .App-layout {
+    .App-scroll {
+      min-width: 1250px;
+      overflow-x: scroll;
+      background-color: #e5e5e5;
+      .App-header {
+        background: transparent !important;
+        padding: 0;
+        margin: 20px 40px;
+      }
+      .App-content {
+        margin: 0 40px 35px 40px;
+        // padding: 24;
+        background: #fff;
+        min-height: 280;
+      }
+    }
+  }
+  // span, label, input {
+  //   font-family: 'Proxima Nova';
+  //   font-style: normal;
+  //   font-weight: 400;
+  // }
+}
+* {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.ant-input {
+  height: 34px;
+  &:hover {
+    border-color: unset;
+  }
+}
+.ant-input-affix-wrapper {
+  & > input {
+    height: unset;
+  }
+}
+html {
+  --antd-wave-shadow-color: unset;
+}
+
+.ant-btn {
+  height: 34px;
+  border-radius: 3px;
+  border: 1px solid #e2e2e5;
+  background: #ffffff;
+  &:hover {
+    color: unset;
+    border-color: unset;
+    border: 1px solid #dbdbdb;
+    background: #fafafa;
+  }
+}
+
+//
+
+// .trigger {
+//   font-size: 18px;
+//   line-height: 64px;
+//   padding: 0 24px;
+//   cursor: pointer;
+//   transition: color .3s;
+// }
+
+// .trigger:hover {
+//   color: #1890ff;
+// }
+
+// .logo {
+//   height: 32px;
+//   background: rgba(255,255,255,.2);
+//   margin: 16px;
+// }

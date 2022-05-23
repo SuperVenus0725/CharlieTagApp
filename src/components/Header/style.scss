@@ -1,0 +1,113 @@
+@import "./Modals/style.scss";
+
+.ant-row {
+  display: flex;
+  .ant-col {
+    .ant-btn {
+      border-radius: 3px;
+      font-size: 14px;
+      line-height: 26px;
+      position: relative;
+      padding: 0;
+      span {
+        position: absolute;
+        right: 15px;
+        height: 26px;
+        top: 3px;
+      }
+      .anticon {
+        position: absolute;
+        left: 14px;
+        img {
+          vertical-align: unset;
+          // position: absolute;
+          // left: 15px;
+          // top: 10px;
+          // margin-right: 10px;
+        }
+      }
+      &:hover {
+        border-color: unset;
+      }
+    }
+    .header-button {
+      background-color: white;
+      color: #878f96;
+      border-color: #e2e2e5;
+      height: 34px;
+      &:hover {
+        background-color: #fafafa;
+        border: 1px solid #dbdbdb;
+        box-sizing: border-box;
+        color: #5f6a73;
+      }
+    }
+    .new-tag-button {
+      background-color: #00a786;
+      margin-right: 10px;
+      color: white;
+      width: 102px;
+      border: 1px solid;
+      border-radius: 3px;
+      border-image-source: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 61.98%,
+        rgba(0, 0, 0, 0.2) 100%
+      );
+      letter-spacing: 0em;
+      text-align: center;
+      & > .anticon {
+        margin-right: 10px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+        top: 9px;
+      }
+      &:hover {
+        background-color: #008369;
+        color: white;
+      }
+    }
+    .tags-button {
+      width: 81px;
+      & > .anticon {
+        top: 10px;
+        width: 12px;
+        height: 12px;
+      }
+    }
+    .automation-button {
+      width: 125px;
+      & > .anticon {
+        top: 9px;
+        width: 14px;
+        height: 14px;
+      }
+    }
+    .header-button-divider {
+      height: 34px;
+      margin-top: 8px;
+    }
+  }
+  .header-switch-selector-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    margin: auto;
+    .header-switch-selector {
+      height: 34px;
+      width: 180px;
+      line-height: 1.499;
+      font-weight: 400;
+      font-size: 14px;
+      .react-switch-selector-option {
+        padding: 1em;
+        .react-switch-selector-option-label {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
